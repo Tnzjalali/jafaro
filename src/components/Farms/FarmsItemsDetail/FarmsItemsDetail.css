@@ -1,0 +1,103 @@
+.itemContainer {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.itemMain {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-direction: row;
+}
+.itemFarmer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.relatedProductsTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.relatedProductsTitle p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 55px;
+  text-align: right;
+  text-transform: uppercase;
+  color: #162c17;
+  margin: 50px 0;
+}
+
+.relatedProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.relatedProductsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.productItemMoreBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.productItemMoreBtn a {
+  background: #1780df;
+  border-radius: 30px;
+  width: 230px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.productItemMoreBtn span {
+  margin-top: 8px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.productItemMoreBtn a:hover {
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+
+@media (max-width: 500px) {
+  .itemContainer {
+    width: 95%;
+  }
+  .itemMain {
+    flex-direction: column;
+  }
+  .itemFarmer {
+    flex-direction: column;
+  }
+  .productItemMoreBtn a {
+    width: 345px;
+    height: 40px;
+  }
+  .relatedProductsTitle p {
+    font-size: 18px;
+    line-height: 31px;
+  }
+}

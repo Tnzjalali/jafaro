@@ -1,0 +1,27 @@
+.BasketAddableInner{
+   display: inline-flex;
+   align-items: center;
+   margin: 10px;
+   
+   cursor: pointer;
+}
+.BasketAddableInner img{
+   width: 30px;
+   height: 30px;
+}
+.BasketAddableInner p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: right;
+
+  /* text/dark */
+  color: #162c17;
+  padding-right: 10px;
+}
+.BasketAddableInner:hover{
+   opacity: .7;
+   transition: .4s ease;
+}

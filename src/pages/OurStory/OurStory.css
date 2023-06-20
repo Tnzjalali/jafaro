@@ -1,0 +1,176 @@
+.topBanner {
+   background: linear-gradient( rgba(91, 100, 91, 0.37), rgba(91, 100, 91, 0.37)), url('../../assets/images/miroshnichenko-6511168.jpg');
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-position: center center;
+   position: relative;
+   text-align: center;
+}
+
+.topBannerContainer {
+   width: 100%;
+   height: 576px;
+}
+
+.bannerTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   text-transform: uppercase;
+   color: #FBFBFB;
+   font-size: 100px;
+   line-height: 157px;
+}
+
+.ourstoryConatiner {
+   width: 85%;
+   margin: 0 auto;
+}
+
+.ourWorkConatiner, .workwithuswaysConatiner {
+   margin: 30px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.ourWorkTitle, .workwithuswaysTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 55px;
+   text-align: center;
+   text-transform: uppercase;
+   /* asli/1 */
+   color: #708236;
+   margin: 40px auto;
+}
+
+.ourWorkTxt, .workwithuswaysTxt {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 31px;
+   text-align: center;
+   text-transform: uppercase;
+   /* text/type */
+   color: #393939;
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.workwithuswaysConatiner img {
+   max-width: 100%;
+   height: 678px;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+ 
+ .ourWorkTitle  {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 38px;
+   line-height: 63px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   color: #708236;
+   z-index: 1;
+   white-space: nowrap;
+ }
+ 
+ .ourWorkTitle:after {
+   content: "";
+   background-color: #708236;
+   height: 3px;
+   width: 230px;
+   margin-right: 1rem;
+ }
+ 
+ .ourWorkTitle:before {
+   content: "";
+   background-color: #708236;
+   height: 3px;
+   width: 230px;
+   margin-left: 1rem;
+ }
+ .workwithuswaysTitle{
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 38px;
+   line-height: 63px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   color: #708236;
+   z-index: 1;
+   white-space: nowrap;
+ }
+.workwithuswaysTitle:after {
+   content: "";
+   background-color: #708236;
+   height: 3px;
+   width: 230px;
+   margin-right: 1rem;
+ }
+ .workwithuswaysTitle:before {
+   content: "";
+   background-color: #708236;
+   height: 3px;
+   width: 230px;
+   margin-left: 1rem;
+ }
+ .contactForm {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contactForm form {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+}
+.sendButton {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px !important;
+}
+@media (maX-width:500px) {
+   .topBannerContainer {
+      width: 100%;
+      height: 150px;
+   }
+   .bannerTitle {
+      font-size: 30px;
+      line-height: 157px;
+   }
+   .ourstoryConatiner {
+      width: 95%;
+   }
+   .ourWorkTitle, .workwithuswaysTitle {
+      font-size: 18px;
+      line-height: 31px;
+   }
+   .ourWorkTxt, .workwithuswaysTxt {
+      font-size: 10px;
+      line-height: 16px;
+      width: auto;
+   }
+   .workwithuswaysConatiner img {
+      width: 345px;
+      height: 248px;
+   }
+}

@@ -1,0 +1,60 @@
+.itemdescribe {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  margin: 20px 25px;
+}
+
+.itemTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.itemTitleContainer {
+  margin: 10px 0 36px 0;
+}
+.rate {
+  margin: auto 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.rateText span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #000000;
+  margin-right: 10px;
+}
+.itemTitle {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 55px;
+  text-align: right;
+  text-transform: uppercase;
+  /* text/dark */
+  color: #162c17;
+}
+
+@media (max-width: 500px) {
+  .itemdescribe {
+    margin: 20px 0;
+  }
+  .itemTitleContainer {
+    margin: 10px 0 36px 0;
+  }
+  .itemTitle {
+    font-size: 18px;
+    line-height: 31px;
+    margin: auto 0;
+  }
+}

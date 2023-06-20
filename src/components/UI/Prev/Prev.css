@@ -1,0 +1,11 @@
+.prev{
+   display: flex;
+   align-items: center;
+}
+
+@media (max-width: 500px) {
+   .prev svg {
+     width: 17px;
+     height: 17px;
+   }
+ }

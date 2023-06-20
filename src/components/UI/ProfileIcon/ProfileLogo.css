@@ -1,0 +1,11 @@
+.profileLogo img {
+   width: auto;
+   height: 34px;
+   cursor: pointer;
+}
+.profileLogo{
+   padding: 23px;
+}
+.profileLogo img:hover  {
+   opacity: 0.7;
+}

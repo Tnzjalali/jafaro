@@ -1,0 +1,39 @@
+.dotList {
+   display: inline-block;
+   margin: 0;
+   padding: 10px 0;
+   list-style-type: none;
+}
+
+.dotList .dot {
+   display: inline-block;
+   width: 40.36px;
+   max-width: 40.36px;
+   height: 10px;
+   max-height: 10px;
+   margin-right: 3px;
+   border-radius: 15px;
+   background-color: #FFE3B9;
+   transition: all 0.25s;
+   cursor: pointer;
+}
+
+.dot:hover {
+   background-color: #e4d4bb;
+}
+
+.dot.active {
+   background-color: #000;
+   width: 70.64px;
+   max-width: 70.64px;
+}
+
+@media (max-width:500px) {
+   .dotList .dot {
+      width: 20px;
+      height: 5px;
+   }
+   .dot.active {
+      width: 35px;
+   }
+}

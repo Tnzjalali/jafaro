@@ -1,0 +1,61 @@
+.topBanner {
+  background: url("../../assets/images/photo_2023-05-16_19-39-08.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  text-align: center;
+}
+
+.topBannerContainer {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 0;
+}
+
+.bannerTitle {
+  background: url("../../assets/images/MainTitle.svg");
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 740px;
+  height: 268px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.mainLogo {
+  width: 140px;
+  height: 160.21px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%) !important;
+}
+
+.mainHeader {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px 0;
+}
+
+@media (max-width: 500px) {
+  .topBanner {
+    height: 495px;
+  }
+  .bannerTitle {
+    width: 345px;
+    height: 124px;
+    top: 70%;
+  }
+  .mainLogo {
+    width: 345px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,145 @@
+.basketCheckoutCard {
+  margin: 20px auto;
+  width: 370px;
+  height: 310px;
+  background: #ffffff;
+  box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04),
+    0px 0px 8px rgba(96, 97, 112, 0.17);
+  border-radius: 15px;
+}
+
+.checkoutSummary {
+  list-style: none;
+  padding: 14px 16px 8px;
+}
+
+.checkoutAllPrice p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  color: #708236;
+}
+
+.checkoutSummary li {
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.checkoutOffPrice p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: right;
+  text-transform: uppercase;
+  /* eror/light */
+  color: #b62a2a;
+}
+
+.checkoutSumPrice {
+  padding: 25px 0;
+  border-top: 0.5px solid #53b455;
+}
+
+.checkoutSumPrice p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: right;
+  text-transform: uppercase;
+  /* text/dark */
+  color: #708236;
+}
+
+.checkoutToForward {
+  width: 230px;
+  height: 35px;
+  background: #94C794;
+  border-radius: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.checkoutToForward:hover {
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+.checkoutToForward span {
+  color: #fff;
+  padding: 5px 16px;
+  direction: rtl;
+  font-size: 15px;
+  line-height: 1.571;
+  font-weight: normal;
+}
+@media (min-width: 500px) {
+  .checkoutcurrencySmall {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .checkoutAllPrice,
+  .checkoutOffPrice {
+    display: none !important;
+  }
+  .checkoutSumPrice {
+    border: none;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+  }
+  .basketCheckoutCard {
+    width: 100%;
+    height: 75px;
+    margin: 0;
+    border-radius: 0;
+    border-top: 0.5px solid #53b455;
+  }
+  .checkoutSummary {
+    padding: 0;
+  }
+  .checkoutSummary li {
+    margin: 0;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .checkoutSumPrice .checkoutItemTitle {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .checkoutSumPrice .checkoutPrice {
+    font-size: 15px;
+    line-height: 23px;
+    display: inline-flex;
+  }
+  .checkoutcurrency {
+    display: none;
+  }
+  .checkoutcurrencySmall {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 0 5px;
+    color: #162c17;
+    display: block;
+  }
+  .checkoutToForward {
+    width: 180px;
+    height: 45px;
+    align-items: center !important;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+}

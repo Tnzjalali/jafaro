@@ -1,0 +1,81 @@
+.sortFarms {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.sortFarmsTable {
+  display: flex;
+  flex-direction: row;
+}
+
+.sortFarmsTitle {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  /* text/dark */
+  color: #162c17;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.4s ease;
+}
+
+.sortFarmsItems {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sortFarmsItems a {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 13px 13px;
+  transition: 0.4s ease;
+  display: inline-block;
+}
+
+.sortFarmsItems span {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  text-transform: uppercase;
+  /* text/ligfht */
+  color: #5c5c5c;
+  display: block;
+  padding: 0 5px;
+  position: relative;
+  font-size: 12px;
+  font-size: 0.857rem;
+  line-height: 25px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.sortFarmsItems a:focus span {
+  background: #1780df;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.sortFarmsItems a:hover span {
+  background-color: #ece9e9;
+}
+
+@media (max-width: 500px) {
+  .treesItems {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sortFarmsTable {
+    display: none;
+  }
+}

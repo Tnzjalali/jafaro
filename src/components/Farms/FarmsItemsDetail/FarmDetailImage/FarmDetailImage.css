@@ -1,0 +1,41 @@
+.itemImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainImage {
+  width: 470px;
+  height: 550px;
+}
+
+.itemImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.otherImages {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+
+.otherImages img {
+  width: 84.94px;
+  height: 110px;
+  border-radius: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  object-fit: cover;
+}
+@media (max-width: 500px) {
+  .mainImage {
+    width: 345px;
+    height: 359px;
+  }
+  .otherImages img {
+    width: 75px;
+    height: 90px;
+  }
+}

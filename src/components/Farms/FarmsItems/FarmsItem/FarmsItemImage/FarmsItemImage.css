@@ -1,0 +1,24 @@
+.farmsItemImage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 5px;
+  transform: scale(1);
+  width: 100%;
+  height: 214px;
+  min-width: 355px;
+}
+
+.farmsItemImage img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+@media (max-width: 500px) {
+  .farmsItemImage {
+    min-width: auto;
+    margin: 10px auto;
+  }
+}

@@ -1,0 +1,52 @@
+.productAddBtn a:hover {
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+
+.productAddBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5%;
+}
+
+.productAddBtn a {
+  width: 230px;
+  height: 40px;
+  background: #94C794;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.productAddBtn span {
+  margin-top: 8px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.productAddBtn svg {
+  margin: 12px 10px 0 10px;
+}
+
+.productAddBtn a:hover {
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+
+@media (max-width: 500px) {
+   .productAddBtn {
+     justify-content: center;
+   }
+   .productAddBtn a {
+     width: 345px;
+     height: 45px;
+   }
+ }
+ 

@@ -1,0 +1,103 @@
+.label {
+   position: absolute;
+   font-size: 1rem;
+   right: 0;
+   top: 30%;
+   transform: translateY(-50%);
+   background-color: #fbfbfb;
+   color: #7C857C;
+   padding: 0 0.3rem;
+   margin: 0 0.5rem;
+   transition: .1s ease-out;
+   transform-origin: left top;
+   pointer-events: none;
+}
+
+.input {
+   opacity: 0;
+   position: absolute;
+   cursor: pointer;
+   width: 370px;
+   height: 45px;
+   top: 0;
+   right: 0;
+   border-radius: 30px;
+}
+
+.materialFileInput {
+   position: relative;
+   font-size: 1rem;
+   outline: none;
+   border: 0.7px solid #393939;
+   box-sizing: border-box;
+   border-radius: 30px;
+   padding: 1rem 0.7rem;
+   color: #7C857C;
+   transition: 0.1s ease-out;
+   width: 370px;
+   height: 45px;
+}
+
+.materialTextfield {
+   position: relative;
+   margin-top: 30px;
+}
+
+.materialFileInput:hover {
+   border-color: #000000;
+}
+
+.inputFileText {
+   position: relative;
+   z-index: -1;
+   font-weight: 400;
+   color: #393939;
+   bottom: 50px;
+}
+
+.textHelper {
+   color: rgba(0, 0, 0, 0.54);
+   margin: 0;
+   font-size: 0.75rem;
+   margin-top: 3px;
+   text-align: right;
+   font-family: IRANSansWeb;
+   font-weight: 400;
+   line-height: 1.66;
+   margin-right: 10px;
+}
+
+input:not(:placeholder-shown)+label {
+   top: 0;
+   transform: translateY(-50%) scale(.9);
+}
+
+input:focus {
+   border-color: #000000;
+}
+
+input:focus+label {
+   color: #7C857C;
+   top: 0;
+   transform: translateY(-50%) scale(.9);
+}
+
+.materialFileInputDisabled {
+   position: relative;
+   font-size: 1rem;
+   outline: none;
+   border: 0.7px solid rgba(0, 0, 0, 0.26);
+   box-sizing: border-box;
+   border-radius: 30px;
+   padding: 1rem 0.7rem;
+   color: #7C857C;
+   transition: 0.1s ease-out;
+   width: 370px;
+   height: 45px;
+}
+
+.attach {
+   position: absolute;
+   left: 5%;
+   top: 25%;
+}

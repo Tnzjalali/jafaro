@@ -1,0 +1,78 @@
+.sortSmall {
+   display: none;
+}
+
+.sortLarge {
+   display: flex;
+   flex-direction: row;
+}
+
+.sortProductsTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 23px;
+   text-align: center;
+   text-transform: uppercase;
+   /* text/dark */
+   color: #708236;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 14px 16px;
+   transition: 0.4s ease;
+}
+
+.sortProductsItems {
+   display: flex;
+   justify-content: space-between;
+}
+
+.listingSort {
+   border: none;
+   outline: none;
+   cursor: pointer;
+   padding: 13px 13px;
+   transition: 0.4s ease;
+   display: inline-block;
+}
+
+.sortProductsItems span {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 16px;
+   text-align: right;
+   text-transform: uppercase;
+   /* text/ligfht */
+   color: #708236;
+   display: block;
+   padding: 0 5px;
+   position: relative;
+   font-size: 12px;
+   font-size: .857rem;
+   line-height: 25px;
+   border-radius: 8px;
+   white-space: nowrap;
+}
+
+.listingSort:focus span {
+   background: #1780df;
+   border-radius: 15px;
+   color: #fff;
+}
+
+.listingSort:hover span {
+   background-color: #ece9e9;
+}
+
+@media (max-width:500px) {
+   .sortLarge {
+      display: none;
+   }
+   .sortSmall {
+      display: flex;
+   }
+}
