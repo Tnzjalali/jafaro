@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jafaro/static/css/main.073c9b0a.css",
+    "main.js": "/jafaro/static/js/main.9342623a.js",
+    "static/js/787.85849dc0.chunk.js": "/jafaro/static/js/787.85849dc0.chunk.js",
+    "static/media/logo.svg": "/jafaro/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/jafaro/index.html",
+    "main.073c9b0a.css.map": "/jafaro/static/css/main.073c9b0a.css.map",
+    "main.9342623a.js.map": "/jafaro/static/js/main.9342623a.js.map",
+    "787.85849dc0.chunk.js.map": "/jafaro/static/js/787.85849dc0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.9342623a.js"
+  ]
+}
