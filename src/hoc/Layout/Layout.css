@@ -1,9 +1,0 @@
-.Content {
-   margin-top: 3%;
-}
-
-@media (max-width:500px) {
-   .Content {
-      margin-top: 17%;
-   }
-}
