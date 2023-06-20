@@ -1,0 +1,43 @@
+.EditFormIcon {
+   width: 20px;
+   height: 20px;
+}
+
+.EditFormText {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   text-align: right;
+   text-transform: uppercase;
+   color: #7C857C;
+   margin: 3px 8px;
+}
+
+.EditForm {
+   display: flex;
+   position: relative;
+   float: left;
+   top: 10px;
+   left: 5%;
+   cursor: pointer;
+}
+.EditForm:hover{
+   opacity: .7;
+   transition: .4s all;
+}
+@media (min-width: 500px) {
+   .EditFormIcon {
+      width: 33px;
+      height: 33px;
+   }
+   .EditFormText {
+      font-size: 18px;
+      margin-top: 10px;
+   }
+   .EditForm {
+      top: 0;
+      left: 10%;
+   }
+}

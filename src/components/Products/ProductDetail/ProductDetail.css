@@ -1,0 +1,195 @@
+.itemContainer {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.itemMain {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.relatedProductsTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.relatedProductsTitle p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+  color: #162c17;
+  margin: 50px 0;
+  font-size: 32px;
+  line-height: 55px;
+}
+
+.relatedProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.relatedProductsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productItemMoreBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.productItemMoreBtn a {
+  background: #1780df;
+  border-radius: 30px;
+  width: 230px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.productItemMoreBtn span {
+  margin-top: 8px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.itemFarmer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.itemFarmerdescription {
+  max-width: 1170px;
+  width: 100%;
+}
+.itemFarmerdescription span {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  text-transform: uppercase;
+  /* text/dark */
+  color: #162c17;
+  margin: 10px 0 30px 0;
+  font-size: 32px;
+  line-height: 55px;
+}
+
+.productItemMoreBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.productItemMoreBtn a {
+  background: #1780df;
+  border-radius: 30px;
+  width: 230px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.productItemMoreBtn span {
+  margin-top: 8px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+
+.productItemMoreBtn a:hover {
+  opacity: 0.8;
+  transition: 0.4s ease;
+}
+
+@media (max-width: 500px) {
+  .itemContainer {
+    width: 95%;
+  }
+  .itemMain {
+    flex-direction: column;
+  }
+  .itemdescribe {
+    margin: 0;
+  }
+  .itemImage {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .mainImage {
+    width: 345px;
+    height: 359px;
+  }
+  .itemImage img {
+    border-radius: 15px;
+  }
+  .itemTitle {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  .itemslogo {
+    margin: 0 0;
+    justify-content: flex-start;
+    display: flex;
+  }
+  .itemdescribe span {
+    font-size: 13px;
+    line-height: 16px;
+    margin: auto 10px;
+  }
+  .productAddBtn {
+    justify-content: center;
+  }
+  .productAddBtn a {
+    width: 345px;
+    height: 45px;
+  }
+  .itemFarmer {
+    margin: 0 0;
+  }
+  .itemFarmerdescription span {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  .itemFarmerdescription {
+    width: 100%;
+  }
+  .relatedProductsTitle {
+    justify-content: flex-start;
+  }
+  .relatedProductsTitle p {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  .productItemMoreBtn a {
+    width: 345px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,115 @@
+.productionParticipation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.productionParticipationImg {
+  background-image: url("../../../assets/images/Group6136.png");
+  width: 215px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  position: relative;
+  bottom: 30px;
+}
+.productionParticipationImg:before {
+  background-image: url("../../../assets/images/Group4131.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  content: "";
+  width: 167px;
+  height: 50px;
+  position: relative;
+  top: 180px;
+  right: -95px;
+}
+.productionParticipationDescribe {
+  width: 270px;
+  height: 132px;
+  filter: drop-shadow(0px 0px 1px rgba(40, 41, 61, 0.04))
+    drop-shadow(0px 2px 4px rgba(96, 97, 112, 0.16));
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.productionParticipationDescribe:before {
+  background-image: url("../../../assets/images/Group5132.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 61px;
+  height: 54px;
+  top: -55px;
+  right: 0;
+  position: absolute;
+}
+.productionParticipationTitle p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1780df;
+  padding: 0 5px;
+  margin: 15px auto;
+}
+.productionParticipationTxt {
+  padding: 0 5px;
+  margin: 5px auto;
+}
+.productionParticipationTxt p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (max-width: 500px) {
+  .productionParticipation {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  .productionParticipationImg {
+    width: 115px;
+    height: 107px;
+    bottom: 0;
+    margin: 10px 0;
+  }
+  .productionParticipationImg:after ,.productionParticipationImg:before{
+    display: none;
+  }
+  .productionParticipationDescribe {
+    width: 165px;
+    height: 93px;
+    margin: 0;
+  }
+  .productionParticipationDescribe:before{
+    display: none;
+  }
+  .productionParticipationTitle p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 5px auto;
+  }
+  .productionParticipationTxt{
+    margin: 0;
+  }
+}

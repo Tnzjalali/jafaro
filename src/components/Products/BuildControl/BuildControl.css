@@ -1,0 +1,36 @@
+.BuildControl {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: 10px 0;
+}
+
+.BuildControl button {
+   display: block;
+   font: inherit;
+   padding: 5px;
+   margin: 0 5px;
+   width: 80px;
+   border: none;
+   background: transparent;
+   cursor: pointer;
+   outline: none;
+   border-radius: 12px;
+}
+
+.ingredientsCounter {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 31px;
+   color: #1780df;
+}
+
+.less, .More {
+   cursor: pointer;
+}
+
+.Less:hover, .More:hover {
+   opacity: .7;
+   transition: .4s ease;
+}

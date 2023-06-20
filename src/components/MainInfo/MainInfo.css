@@ -1,0 +1,243 @@
+.mainInfoTitleContainer {
+   justify-content: center;
+   display: flex;
+   margin: 40px auto;
+}
+
+.mainInfoTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 38px;
+   line-height: 63px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   color: #1780df;
+   z-index: 1;
+   white-space: nowrap;
+}
+
+.mainInfoTitle:after {
+   content: "";
+   background-color: #000;
+   height: 3px;
+   width: 230px;
+   margin-right: 1rem;
+}
+
+.mainInfoTitle:before {
+   content: "";
+   background-color: #000;
+   height: 3px;
+   width: 230px;
+   margin-left: 1rem;
+}
+
+.mainInfoContainer {
+   width: 100%;
+   height: 696px;
+   background: url('../../assets/images/ramkumar-radhakrishnan-wikimedia-1622193304-1622193304.jpeg');
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   position: relative;
+   top: 50px;
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+}
+
+.mainInfo {
+   width: 430px;
+   height: 695px;
+   background: #FBFBFB;
+   border-radius: 15px;
+   margin: 0 auto;
+}
+
+.newslettersTxt {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 31px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #708236;
+   padding: 20px 0;
+}
+
+.mobileCode {
+   position: absolute;
+   left: 0;
+   top: 30px;
+   direction: ltr;
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 31px;
+   text-align: right;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   background: #94C794;
+   border-radius: 22.5px 0px 0px 22.5px;
+   padding: 7px 30px;
+   letter-spacing: 0.08rem;
+}
+
+.phoneNumberContainer {
+   width: 400px !important;
+   position: relative;
+}
+
+.newslettersBtn {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px !important;
+}
+
+.emailInfoContainer, .phoneInfoContainer {
+   margin: 40px auto;
+}
+
+.emailInfoTitle, .phoneInfoTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 23px;
+   line-height: 39px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #708236;
+   margin-bottom: 20px;
+}
+
+.emailInfo {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 31px;
+   text-align: center;
+   color: #708236;
+}
+
+.phoneInfoList {
+   list-style: none;
+   padding: 14px 16px 8px;
+}
+
+.phoneInfo {
+   display: flex;
+   justify-content: space-around;
+}
+
+.phoneInfo p {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 31px;
+   text-align: center;
+   color: #708236;
+}
+
+.locationContainer {
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   top: 10%;
+   right: 5%;
+}
+
+.locationInfo {
+   width: 345.04px;
+   height: 556.56px;
+   background: #FFFFFF;
+   border-radius: 10px;
+}
+
+/* .locationInfo:before {
+   content: "";
+   display: block;
+   width: 0;
+   height: 0;
+   border-top: 50px solid transparent;
+   border-bottom: 50px solid transparent;
+   border-right: 50px solid #FFF;
+   position: absolute;
+   top: 60px;
+   left: 15px;
+} */
+
+.locationLogo {
+   position: relative;
+   right: 12%;
+   top: 75px;
+}
+
+@media (min-width:500px) {
+   .mainInfoSmall, .locationInfoSmall {
+      display: none;
+   }
+}
+
+@media (max-width:500px) {
+   .mainInfoContainer {
+      height: 204px;
+   }
+   .mainInfo {
+      display: none;
+   }
+   .locationInfo {
+      display: none;
+   }
+   .mainInfoTitle {
+      font-size: 18px;
+      line-height: 31px;
+   }
+   .mainInfoTitle:after, .mainInfoTitle:before {
+      display: none;
+   }
+   .newslettersTxt {
+      font-size: 9.5px;
+      line-height: 15px;
+      letter-spacing: -0.01em;
+   }
+   .phoneNumberContainerSmall {
+      width: 377px;
+      position: relative;
+   }
+   .locationContainer {
+      width: 274.26px;
+      height: 128.65px;
+      background: #FFFFFF;
+      right: 5%;
+   }
+   .locationInfoSmall:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-bottom: 25px solid transparent;
+      border-right: 25px solid #FFF;
+      position: absolute;
+      top: 15px;
+      left: -25px;
+   }
+   .locationLogo {
+      top: 20px;
+   }
+   .phoneNumberContainerSmall {
+      width: 345px !important;
+      margin: 0 auto;
+   }
+   .locationLogo img {
+      width: 30px;
+      height: 30px;
+   }
+}

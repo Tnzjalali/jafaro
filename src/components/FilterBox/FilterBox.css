@@ -1,0 +1,117 @@
+.filterFarmsCard {
+   height: 365px;
+   width: 270px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04), 0px 4px 8px rgba(96, 97, 112, 0.16);
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+}
+
+.filterFarmsTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 23px;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   text-transform: uppercase;
+   color: #393939;
+   margin: 20px 20px 5px 20px;
+}
+
+.filterFarmsLabel {
+   margin-right: 10px;
+}
+
+.sliderLabel {
+   display: flex;
+   justify-content: space-between;
+}
+
+.sliderLabel {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 16px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: uppercase;
+   color: #000000;
+}
+
+.sliderFilter {
+   border-top: 0.7px solid #E0DFDF;
+   margin-top: 10px;
+}
+
+.sliderTitle {
+   font-family: IRANSans;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 13px;
+   line-height: 23px;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   text-transform: uppercase;
+   /* text/type */
+   color: #393939;
+   margin: 5px 0;
+}
+
+.filterFarms {
+   display: flex;
+   flex-direction: column;
+}
+
+.filterBoxSmall {
+   display: none;
+}
+
+@media (max-width:500px) {
+   .filterFarms {
+      width: 100%;
+   }
+   .filterBoxSmall {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 10px 0;
+   }
+   .filterBoxSmall p {
+      font-family: IRANSans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 23px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+      margin: auto 10px;
+   }
+   .filterFarmsCardClose {
+      display: none;
+   }
+   .filterFarmsCard {
+      margin: 0 auto;
+   }
+   .filterType {
+      display: flex;
+      flex-direction: column;
+      margin: auto 0;
+      cursor: pointer;
+   }
+   .sortType {
+      display: flex;
+      flex-direction: column;
+   }
+   .filterTypeContent {
+      display: flex;
+      flex-direction: row;
+   }
+}

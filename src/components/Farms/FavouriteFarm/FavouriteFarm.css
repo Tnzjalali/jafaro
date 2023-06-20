@@ -1,0 +1,118 @@
+.FavouriteFarmCard {
+  width: 570px;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 10px 20px;
+  box-shadow: 0px 0px 2px rgba(40, 41, 61, 0.04),
+    0px 4px 8px rgba(96, 97, 112, 0.16);
+}
+
+.FavouriteFarmImage {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 5px;
+  transform: scale(1);
+}
+
+.FavouriteFarmImage img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.FavouriteFarmCard:hover img {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.FavouriteFarmTitle {
+  font-size: 32px;
+  line-height: 55px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162c17;
+  margin: 10px 0 10px 0;
+}
+
+.FavouriteFarmProducts {
+  font-size: 18px;
+  line-height: 31px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #393939;
+}
+
+.FavouriteFarmDescription {
+  font-size: 18px;
+  line-height: 31px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #5c5c5c;
+  padding: 30px;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.FavouriteFarmBtn {
+  border-top: 0.7px solid #e0dfdf;
+}
+
+.FavouriteFarmBtn:hover {
+  opacity: 0.7;
+  transition: 0.4s ease;
+}
+
+.FavouriteFarmBtn span {
+  font-size: 23px;
+  line-height: 39px;
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1780df;
+  justify-content: center;
+  padding: 30px 0 20px 0;
+}
+
+@media (max-width: 500px) {
+  .FavouriteFarmCard {
+    width: 255px;
+    height: 305px;
+  }
+  .FavouriteFarmImage {
+    overflow: unset;
+  }
+  .FavouriteFarmTitle {
+    font-size: 13px;
+    line-height: 23px;
+  }
+  .FavouriteFarmProducts,
+  .FavouriteFarmDescription {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .FavouriteFarmDescription {
+    margin: 10px 0;
+  }
+  .FavouriteFarmBtn span {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 5px 0 20px 0;
+  }
+}

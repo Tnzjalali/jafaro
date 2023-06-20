@@ -1,0 +1,20 @@
+.socialMediaIcons {
+   display: flex;
+   justify-content: center;
+}
+
+.socialMediaIcon {
+   margin: 40px;
+}
+
+.socialMediaIcon:hover {
+   opacity: 0.8;
+   transition: .4s ease;
+}
+
+@media (max-width:500px) {
+   .socialMediaIcon img {
+      width: 40px;
+      height: 23px;
+   }
+}

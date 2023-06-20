@@ -1,0 +1,22 @@
+.farms {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.sortFarmsTable {
+  display: flex;
+  flex-direction: row;
+}
+.farmsItems {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .sortFarmsTable {
+    display: none;
+  }
+  .farms {
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.nextButton {
+   background: rgba(255, 255, 255, 0.63);
+   border-radius: 10px 0px 0px 10px;
+   width: 30px;
+   height: 77px;
+   position: relative;
+   right: 45px;
+   bottom:70px;
+}
+.nextButton:hover{
+   opacity: .7;
+   transition: .4s ease;
+}
+@media (max-width:500px) {
+   .nextButton {
+      display: none;
+   }
+}

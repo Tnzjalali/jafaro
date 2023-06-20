@@ -1,0 +1,11 @@
+.socialMediaIcons{
+   display: flex;
+   justify-content: center;
+}
+.socialMediaIcon{
+   padding: 20px;
+}
+.socialMediaIcon:hover{
+   opacity: 0.8;
+   transition: .4s ease;
+}

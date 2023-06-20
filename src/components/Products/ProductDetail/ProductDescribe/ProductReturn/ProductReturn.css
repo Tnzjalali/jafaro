@@ -1,0 +1,38 @@
+.returnInvestment {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.returnInvestment span {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: right;
+  text-transform: uppercase;
+  /* text/type */
+  color: #708236;
+  white-space: nowrap;
+}
+
+.itemslogo {
+  margin: 0px 0px 0px 20px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  .itemslogo {
+    display: none;
+  }
+  .returnInvestment {
+    margin: 0;
+  }
+  .returnInvestment span {
+    font-size: 13px;
+line-height: 23px;
+  }
+}

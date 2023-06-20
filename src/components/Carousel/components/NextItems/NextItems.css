@@ -1,0 +1,32 @@
+.nextItems {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.nextItems:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+  opacity: 0.8;
+}
+.nextItems span {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 10px;
+  color: #708236;
+}
+
+@media (max-width: 500px) {
+  .nextItems span {
+    font-size: 10px;
+    line-height: 17px;
+  }
+}

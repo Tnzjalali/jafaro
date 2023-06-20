@@ -1,0 +1,86 @@
+.SideDrawer {
+  position: fixed;
+  width: 335px;
+  max-width: 70%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index: 200;
+  padding: 20px 16px;
+  background-color: #94C794;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-out;
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Open img {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.Close {
+  transform: translateX(100%);
+}
+
+.sideDrawerIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+.sideDrawerClose {
+  display: flex;
+  flex-direction: column;
+}
+.sideDrawerIcon p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  /* bg */
+  color: #fbfbfb;
+}
+
+.sideDrawerIcon p:hover {
+  color: #000;
+  transition: 0.3s ease;
+}
+
+.sideDrawerIcon div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.sideDrawerHead {
+  display: flex;
+  flex-direction: row;
+}
+.profileWrapper {
+  margin: 0 auto;
+}
+.sideDrawerSocial {
+  display: flex;
+  justify-content: flex-end;
+}
+.sideDrawerSocial svg:hover path {
+  fill: #000;
+}
+@media (max-width: 500px) {
+  .sideDrawerIcon p {
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .profileWrapper {
+    width: 90px;
+    margin: 0 auto;
+  }
+}

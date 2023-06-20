@@ -1,0 +1,8 @@
+.mainLogo{
+   justify-content: center;
+   display: flex;
+   padding: 50px;
+}
+.mainLogo img{
+   height: 100%;
+}

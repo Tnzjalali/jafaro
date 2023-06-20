@@ -1,0 +1,123 @@
+.farmersRequest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.farmersRequestImgContainer {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.farmersRequestImg {
+  background-image: url("../../../assets/images/Group6132.png");
+  width: 215px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  position: relative;
+  bottom: 10px;
+}
+.farmersRequestDescribe:before {
+  background-image: url("../../../assets/images/Group5133.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  display: block;
+  width: 45px;
+  height: 50px;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+}
+.farmersRequestDescribe {
+  width: 270px;
+  height: 132px;
+  filter: drop-shadow(0px 0px 1px rgba(40, 41, 61, 0.04))
+    drop-shadow(0px 2px 4px rgba(96, 97, 112, 0.16));
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+.farmersRequestImg:before {
+  background-image: url("../../../assets/images/Group4133.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 182px;
+  height: 80px;
+  position: relative;
+  top: 160px;
+  right: -90px;
+}
+.farmersRequestTitle p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1780df;
+  padding: 0 5px;
+  margin: 15px auto;
+}
+.farmersRequestTxt {
+  padding: 0 5px;
+  margin: 5px auto;
+}
+.farmersRequestTxt p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+
+
+@media (max-width: 500px) {
+  .farmersRequest {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  .farmersRequestImg {
+    width: 115px;
+    height: 107px;
+    bottom: 0;
+    margin: 10px 0;
+  }
+  .farmersRequestImg:after ,.farmersRequestImg:before{
+    display: none;
+  }
+  .farmersRequestDescribe {
+    width: 165px;
+    height: 93px;
+    margin: 0;
+  }
+  .farmersRequestDescribe:before{
+    display: none;
+  }
+  .farmersRequestTitle p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 5px auto;
+  }
+  .farmersRequestTxt{
+    margin: 0;
+  }
+}

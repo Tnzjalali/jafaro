@@ -1,0 +1,94 @@
+.Toolbar {
+   width: 100%;
+   top: 20px;
+   left: 0;
+   box-sizing: border-box;
+   z-index: 99;
+   height: 56px;
+   padding: 0 20px;
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   position: relative;
+}
+
+.headerItem {
+   display: flex;
+   margin: auto 0;
+   width: 100%;
+   justify-content: center;
+}
+
+.DesktopOnly {
+   display: none;
+}
+
+.userProfileLogo img {
+   width: 44px;
+   height: 51px;
+}
+
+.userProfileLogo {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: row-reverse;
+}
+
+.ProfileIconLarge {
+   display: none;
+}
+
+.profileStartIcon {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   position: absolute;
+   right: 0;
+}
+
+.profileEndIcon {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   position: absolute;
+   left: 0;
+}
+
+@media (min-width:500px) {
+   .Toolbar {
+      height: auto;
+      display: block;
+      position: relative;
+      padding: 0 50px;
+      width: 85%;
+      margin: 0 auto;
+      max-width: 1170px;
+   }
+   .DesktopOnly {
+      display: block;
+   }
+   .userProfileLogo img {
+      height: 85px;
+      width: 85px;
+   }
+   .userProfileLogo {
+      position: relative;
+      margin: 0 auto;
+      align-items: center;
+      flex-direction: row;
+   }
+   .Toolbar nav {
+      height: 100%;
+      width: 100%;
+   }
+   .ProfileIconLarge {
+      display: block;
+   }
+}
+
+@media (max-width:500px) {
+   .profileStartIcon div {
+      display: none;
+   }
+}

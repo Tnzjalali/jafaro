@@ -1,0 +1,78 @@
+.imgUploadLabel {
+   position: absolute;
+   border-radius: 50%;
+   width: 74.91px;
+   height: 74.91px;
+   margin: 10px;
+   margin-right: 15px;
+}
+
+@media (min-width: 500px) {
+   .imgUploadLabel {
+      width: 157.21px;
+      height: 157.21px;
+   }
+}
+
+.imgUpload {
+   position: relative;
+   overflow: hidden;
+   height: 100%;
+   width: 100%;
+   border-radius: 50%;
+   cursor: pointer;
+   background: #CBE3FF;
+}
+
+.imgUpload img {
+   color: transparent;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.imgUpload::before {
+   content: url("../../../../assets/icons/Camera.svg");
+   font-size: 90px;
+   position: absolute;
+   padding-top: 80px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   color: #63d3a6;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   opacity: 0;
+   transition: .5s ease;
+   background-color: #fff;
+}
+
+.imgUpload:hover:before {
+   opacity: 0.5;
+}
+
+.imgUploadInput {
+   display: none;
+}
+
+@media (max-width: 500px) {
+   .imgUpload::before {
+      content: url("../../../../assets/icons/CameraMobile.svg");
+      font-size: 75px;
+      position: absolute;
+      padding-top: 80px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #63d3a6;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #fff;
+   }
+}

@@ -1,0 +1,32 @@
+.scrollerContainer {
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   padding: 10px 0;
+   box-sizing: border-box;
+}
+
+.scrollerContent {
+   margin: 6px;
+   padding: 0;
+   display: flex;
+}
+
+.scrollerContent a {
+   padding: 0;
+   width: 9px;
+   height: 0px;
+   border: 2px solid #FBFBFB;
+   display: inline-flex;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.scrollerContent a:hover {
+   border-color: #000;
+}
+
+.active {
+   border-color: #000 !important;
+   width: 15px !important;
+}

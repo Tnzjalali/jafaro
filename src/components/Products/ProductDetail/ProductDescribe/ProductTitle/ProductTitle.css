@@ -1,0 +1,17 @@
+.itemTitle {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  text-align: right;
+  text-transform: uppercase;
+  color: #708236;
+  margin: 10px 0 10px 0;
+  font-size: 32px;
+  line-height: 55px;
+}
+@media (max-width: 500px) {
+  .itemTitle {
+    font-size: 18px;
+    line-height: 31px;
+  }
+}

@@ -1,0 +1,33 @@
+.itemslogo {
+  margin: 0px 0px 0px 20px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.itemStatus {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.itemStatus span {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  text-align: right;
+  text-transform: uppercase;
+  /* text/type */
+  color: #708236;
+}
+
+@media (max-width: 500px) {
+  .itemslogo {
+    display: none;
+  }
+  .itemStatus {
+    margin: 0;
+  }
+}

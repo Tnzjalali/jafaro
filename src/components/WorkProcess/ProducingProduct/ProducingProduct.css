@@ -1,0 +1,119 @@
+.producingProduct {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.producingProductImg {
+  background-image: url("../../../assets/images/Group6133.png");
+  width: 215px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  top: 20px;
+  position: relative;
+}
+.producingProductImg:after {
+  background-image: url("../../../assets/images/Group4132.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  width: 147px;
+  height: 81px;
+  position: relative;
+  top: -55px;
+  left: -155px;
+  z-index: 99;
+}
+.producingProductDescribe {
+  width: 270px;
+  height: 132px;
+  filter: drop-shadow(0px 0px 1px rgba(40, 41, 61, 0.04))
+    drop-shadow(0px 2px 4px rgba(96, 97, 112, 0.16));
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 40px;
+}
+.producingProductDescribe:before {
+  background-image: url("../../../assets/images/Group5134.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  content: "";
+  width: 50px;
+  height: 57px;
+  position: absolute;
+  top: -20px;
+  left: -46px;
+}
+.producingProductTitle p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1780df;
+  padding: 0 5px;
+  margin: 15px auto;
+}
+.producingProductTxt {
+  padding: 0 5px;
+  margin: 5px auto;
+}
+.producingProductTxt p {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+@media (max-width: 500px) {
+  .producingProduct {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+  }
+  .producingProductImg {
+    width: 115px;
+    height: 107px;
+    top: 0;
+    margin: 10px 0;
+  }
+  .producingProductImg:after,
+  .producingProductImg:before {
+    display: none;
+  }
+  .producingProductDescribe {
+    width: 165px;
+    height: 93px;
+    margin: 0;
+    top: 0;
+  }
+  .producingProductDescribe:before {
+    display: none;
+  }
+
+  .producingProductTitle p {
+    font-size: 15px;
+    line-height: 23px;
+    margin: 5px auto;
+  }
+  .producingProductTxt {
+    margin: 0;
+  }
+}

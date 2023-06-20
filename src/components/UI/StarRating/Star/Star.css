@@ -1,0 +1,13 @@
+.star {
+  display: inline-flex;
+  position: relative;
+  padding: 0 2px;
+  width: 17.33px;
+  height: 30px;
+}
+@media (max-width: 500px) {
+  .star {
+    width: 13px;
+    height: 12px;
+  }
+}
